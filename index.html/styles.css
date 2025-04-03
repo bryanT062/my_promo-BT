@@ -1,0 +1,28 @@
+article {
+    background-color: red;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+h1 {
+    color: rgba(17, 17, 230, 0.695);
+    justify-self: center;
+    font-size: 90px;
+    
+}
+.card {
+    
+    column-count: 3;
+    
+    
+
+}
+p {
+    
+    color: white;
+    padding: 5px;
+
+    
+}
