@@ -108,15 +108,20 @@ opacity: 1;
         align-items: center;
 
     }
+
     h1{
+        justify-content: center;
         width: auto;
         font-size: 20px;
     }
     .card{
-        
+        align-content: center;
         width: 180px;
     }
     .hidden-text{
+        font-size: 10px;
+    }
+    p {
         font-size: 10px;
     }
     
