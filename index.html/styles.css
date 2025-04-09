@@ -25,7 +25,7 @@ h1 {
     text-align: center;
     background-color: red;
     border: solid 2px red;
-
+    animation: zoom-in-up 4s    ease-in ; 
 }
 
 .hidden-text {
@@ -98,7 +98,20 @@ opacity: 1;
 }
 }
 
+@keyframes zoom-in-up{
+    from{
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    70%{
+    opacity: 1;
+    transform: scale3d(0.5, 0.5, 0.5) translate3d(0, -20px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+    
 
+}
  @media (max-width: 480px) {
     
     .container article{
@@ -117,12 +130,17 @@ opacity: 1;
     .card{
         align-content: center;
         width: 180px;
+       
     }
     .hidden-text{
         font-size: 10px;
     }
     p {
         font-size: 10px;
+    }
+    .card:hover{
+        align-content: center;
+        padding-block: 16px;
     }
     
  }
