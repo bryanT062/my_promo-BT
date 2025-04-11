@@ -1,6 +1,7 @@
 body{
     background-size: 100% 100%;
-    background: linear-gradient(90deg, rgba(9,5,77,1) 10%, rgba(136,202,98,1) 31%, rgba(101,209,195,0.9719537473192402) 88%);
+    background: linear-gradient(80deg, rgba(77, 231, 234, 0.55) 10%, rgb(241, 203, 81) );
+    margin: 0;
 
 }
 
@@ -57,8 +58,9 @@ footer{
     text-align: center;
     align-content: flex-end;
     background-color: green;
-    margin-top: 250px;
+    margin-top: 50px;
     padding-top: 20px;
+    width: 100%;
 }
 
 .hidden-text:hover{
@@ -122,6 +124,11 @@ opacity: 1;
         align-items: center;
 
     }
+    .card:active {
+        animation: changebackground 4s ease infinite;
+        
+
+    }
 
     h1{
         justify-content: center;
@@ -144,6 +151,7 @@ opacity: 1;
         display: flex;
         align-content: center;
         padding-block: 16px;
+        
 
     }
    
